@@ -2,8 +2,10 @@ from fresh_tomatoes import open_movies_page
 from movie_class import Movie 
 
 
-# Use Class Movie which import from fresh_tomatoes_class, 
-# store movies data as below example:
+
+'''Use Class Movie which import from fresh_tomatoes_class, 
+store movies data as below example:'''
+
 mission = Movie(
 	title="The Mission", 
 	photo_link="http://upload.wikimedia.org/wikipedia/zh/f/f1/The_Mission_1999.jpg",
@@ -28,8 +30,7 @@ election2 = Movie(
 # Add new instants to the movies list after create new instants.
 movies = [mission, election, election2]
 
-# This function will help you generate a html page, 
-# which will displays the movie data you store in this python file.
+
 def get_html(movies_list=movies):
 	""" 
 	get_html() will help you generate a html page.
@@ -40,12 +41,8 @@ def get_html(movies_list=movies):
 	"""
 	open_movies_page(movies_list)
 	# This function is imported from fresh_tomatoes.py. 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 if  __name__ == "__main__":
 	get_html()
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+
